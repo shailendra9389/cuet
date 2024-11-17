@@ -5,20 +5,20 @@ export default function Home() {
     {
       name: "Ria Sharma",
       class: "Class 10",
-      image: "https://via.placeholder.com/150", // Replace with your image link
+      image: "https://via.placeholder.com/150", 
       text: "Thanks to CUET Plus, I was able to find the stream that truly aligns with my skills. Disha Plus counseling was a game-changer!",
     },
     {
       name: "Arjun Singh",
       class: "Class 12",
-      image: "https://via.placeholder.com/150", // Replace with your image link
+      image: "https://via.placeholder.com/150", 
       text: "CUET Plus’s Vision Plus career counseling gave me the direction I needed to pursue my dream career. Highly recommended!",
     },
   ];
   return (
 
     <div className=" text-white font-sans">
-      {/* Header Section */}
+      
       <div className="bg-green-950  px-4 py-8 text-center md:flex md:justify-between md:items-center w-full">
         <div className=" w-full md:w-full">
           <h1 className="text-5xl font-bold mb-4 text-center">
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Why Choose Section */}
+     
       <div className="bg-green-950 py-12 text-center">
         <h2 className="text-5xl font-bold mb-6">Why Choose CUET Plus Counseling?</h2>
         <p className="text-lg max-w-3xl mx-auto mb-8">
@@ -93,12 +93,12 @@ export default function Home() {
 </div>
 
 <div className="bg-white p-8">
-  {/* Header Section */}
+  
   <h1 className="text-5xl font-bold text-center mb-8 text-black">Our Counseling Services</h1>
 
-  {/* Services Section */}
+
   <div className="flex flex-col md:flex-row justify-between mb-12">
-    {/* Stream Counseling */}
+   
     <div className="md:w-1/2 p-4">
       <h2 className="text-3xl font-semibold mb-4 text-black">Stream Counseling – Disha Plus</h2>
       <p className="text-lg mb-4 text-black">
@@ -141,12 +141,12 @@ export default function Home() {
     </div>
   </div>
 
-  {/* Process Section */}
+  
   <h2 className="text-4xl font-bold text-center mb-4 text-black">How Our Counseling Process Works</h2>
 
-  {/* Dot and Text Section */}
+ 
   <div className="flex flex-col md:flex-row items-center mt-8">
-  {/* Text Section - Left aligned with reduced margin */}
+
   <div className="ml-0 mr-16 md:mr-8 lg:mr-16 xl:mr-20" style={{ textAlign: "right", marginTop: "100px" }}>
     <h3 className="text-4xl font-bold mb-4 text-black ml-20">Book a Free Initial Consultation</h3>
     <p className="text-lg mb-2 text-black ml-20">
@@ -156,14 +156,14 @@ export default function Home() {
 
   {/* Dot and Dotted Line - Centered */}
   <div className="flex flex-col items-center justify-center">
-    {/* Dot */}
+  
     <div className="w-8 h-8 bg-green-950 rounded-full mb-8"></div>
 
-    {/* Dotted Line */}
+
     <div
       style={{
-        height: "120px", // Increased height for longer dotted line
-        borderLeft: "4px dashed black", // Bold dotted line
+        height: "120px", 
+        borderLeft: "4px dashed black", 
       }}
     ></div>
   </div>
@@ -260,7 +260,7 @@ export default function Home() {
 
   {/* Right Text Section */}
   <div style={{ flex: 1 }}>
-    {/* Personalized Assessment */}
+ 
     <div style={{ marginBottom: "6rem" }}>
       <h3 style={{ fontWeight: "bold", color: "black", fontSize: "2rem" }}>Personalized Assessment</h3>
       <p style={{ color: "black", fontSize: "1.2rem" }}>
@@ -269,7 +269,7 @@ export default function Home() {
       </p>
     </div>
 
-    {/* Ongoing Support */}
+    
     <div style={{ marginTop: "50px" }}>
       <h3 style={{ fontWeight: "bold", color: "black", fontSize: "2rem" ,marginTop:"350px"}}>Ongoing Support</h3>
       <p style={{ color: "black", fontSize: "1.2rem" }}>
@@ -292,7 +292,7 @@ export default function Home() {
     {/* Card 1 */}
     <div className="bg-green-950 p-6 rounded-[25px] shadow-lg border-4 border-black max-w-xs sm:max-w-md w-full flex flex-col items-center">
       <img
-        src="https://www.shutterstock.com/image-photo/happy-smiling-african-american-girl-600nw-2346454877.jpg" // Replace with your image link
+        src="https://www.shutterstock.com/image-photo/happy-smiling-african-american-girl-600nw-2346454877.jpg" 
         alt="Ria Sharma"
         className="w-40 h-50 rounded-full  mb-2"
       />
@@ -307,7 +307,7 @@ export default function Home() {
     {/* Card 2 */}
     <div className="bg-green-950 p-6 rounded-[25px] shadow-lg border-4 border-black max-w-xs sm:max-w-md w-full flex flex-col items-center">
       <img
-        src="https://www.shutterstock.com/image-photo/student-university-portrait-black-man-600nw-2353231721.jpg" // Replace with your image link
+        src="https://www.shutterstock.com/image-photo/student-university-portrait-black-man-600nw-2353231721.jpg" 
         alt="Arjun Singh"
         className="w-40 h-50 rounded-full mb-2"
       />
